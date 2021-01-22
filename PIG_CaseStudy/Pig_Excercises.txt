@@ -41,9 +41,10 @@ grunt> STORE B into 'outputdir2' USING PigStorage('|');
 
 [khasimbabueai2500@ip-172-31-20-58 PIGFiles]$ pig -x local students.pig
 
-==================================================
+===============================================================
 Movies Dataset
-==================
+(49590 observations, 5 columns)
+=================================
 
 1) Loading of the file(movies_data dataset) in to PIG.
 grunt> movies = LOAD 'movies_data.xls' USING PigStorage(',') AS (id:int, name:chararray, year:int, rating:double, duration:int);
