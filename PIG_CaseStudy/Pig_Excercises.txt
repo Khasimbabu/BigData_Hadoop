@@ -42,7 +42,7 @@ grunt> STORE B into 'outputdir2' USING PigStorage('|');
 [khasimbabueai2500@ip-172-31-20-58 PIGFiles]$ pig -x local students.pig
 
 ===============================================================
-Movies Dataset
+Movies Dataset - attachment_movies_data.xls
 (49590 observations, 5 columns)
 =================================
 
